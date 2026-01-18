@@ -1,25 +1,25 @@
 class Ralph < Formula
   desc "Ralph Loop (Claude Code) with some bells and whistles"
   homepage "https://github.com/chr1sbest/wiggum"
-  version "1.2.2"
+  version "1.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/chr1sbest/wiggum/releases/download/v1.2.2/ralph_darwin_arm64.tar.gz"
-      sha256 "953f60cdd7111eb8e07b5c80aca17aac352e1247fe93905357a039317fe28b48"
+      url "https://github.com/chr1sbest/wiggum/releases/download/v1.0.0/ralph_darwin_arm64.tar.gz"
+      sha256 "f4aa6dfc345cf4f8175ea15173b8caa6b20079014450ec2e1c01e3bf66ed6913"
     else
-      url "https://github.com/chr1sbest/wiggum/releases/download/v1.2.2/ralph_darwin_amd64.tar.gz"
-      sha256 "b9489ff7e52c64aef8ede656132cb861133f76a5dce9bccedaa4221b877f8c21"
+      url "https://github.com/chr1sbest/wiggum/releases/download/v1.0.0/ralph_darwin_amd64.tar.gz"
+      sha256 "25b8dc89850bce958620880d562f226a6b161dde766f541f43882e68e0c829c7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/chr1sbest/wiggum/releases/download/v1.2.2/ralph_linux_arm64.tar.gz"
-      sha256 "1adf537837d57cf2ea0933a6521977f0e5c6c6a68347f95f1a15897d0f57d8e8"
+      url "https://github.com/chr1sbest/wiggum/releases/download/v1.0.0/ralph_linux_arm64.tar.gz"
+      sha256 "cd53368cbd313af08abd6af1c4e8b1fc32ae6bfaa0da7fa5e0016ab7423b9cd4"
     else
-      url "https://github.com/chr1sbest/wiggum/releases/download/v1.2.2/ralph_linux_amd64.tar.gz"
-      sha256 "3788412eab142f5173a32e2dbe4f5313ea908871bd1e12621e6b7c54f7d77684"
+      url "https://github.com/chr1sbest/wiggum/releases/download/v1.0.0/ralph_linux_amd64.tar.gz"
+      sha256 "2d9f8d675c673c8bc61dcc2355587b33fea515c73d0ddad90272ba0967c78d4a"
     end
   end
 
